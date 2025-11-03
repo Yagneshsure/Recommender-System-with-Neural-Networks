@@ -1,0 +1,28 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Data
+data/
+logs/
+*.csv
+*.pkl
+*.json
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# IDE/System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
