@@ -1,28 +1,15 @@
-# Virtual environments
-venv/
-env/
-.venv/
-
-# Cache and logs
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.pyd
-*.log
-
-# Data
-data/
+*.so
+*.ipynb_checkpoints
+venv/
+.env/
+*.egg-info/
+data/raw/
+data/processed/
+checkpoints/
 logs/
-*.csv
-*.pkl
-*.json
-
-# Jupyter
-.ipynb_checkpoints/
-notebooks/
-
-# IDE/System
-.vscode/
-.idea/
+results/
 .DS_Store
-Thumbs.db

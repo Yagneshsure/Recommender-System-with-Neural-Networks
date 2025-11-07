@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.ipynb_checkpoints
+
+# Virtual env
+venv/
+.env/
+*.egg-info/
+
+# Data and logs
+data/raw/
+data/processed/
+checkpoints/
+logs/
+results/
+
+# System
+.DS_Store

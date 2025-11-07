@@ -1,26 +1,13 @@
-# NeuralRecoNet Requirements
-# Python 3.8+
-
-# Deep Learning
-torch>=2.0.0
-torchvision>=0.15.0
-
-# Data Processing
-numpy>=1.24.0
-pandas>=2.0.0
-scikit-learn>=1.3.0
-
-# Visualization & Logging
-matplotlib>=3.7.0
-seaborn>=0.12.0
-tensorboard>=2.13.0
-tqdm>=4.65.0
-
-# Utilities
-pyyaml>=6.0
-jupyter>=1.0.0
-ipython>=8.12.0
-
-# Optional: For advanced features
-plotly>=5.14.0
-networkx>=3.1  # For graph visualization
+torch
+torch-geometric
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+networkx
+pyyaml
+streamlit
+fastapi
+uvicorn
