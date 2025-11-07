@@ -1,6 +1,15 @@
 # Configuration settings
-DATA_PATH = 'data/processed/'
-RAW_DATA_PATH = 'data/raw/'
+
+### RAW Data path ###
+RAW_DATA_PATH = r'data\raw'
+MOVIES_DATA_PATH = r"data\raw\ml-1m\movies.dat"
+RATINGS_DATA_PATH = r"data\raw\ml-1m\ratings.dat"
+USER_DATA_PATH = r"data\raw\ml-1m\users.dat"
+
+###### Processed data path #######
+DATA_PATH = r'data\processed'
+
+
 CHECKPOINT_DIR = 'checkpoints/'
 LOG_DIR = 'logs/'
 RESULTS_DIR = 'results/'
